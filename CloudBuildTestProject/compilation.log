@@ -1,0 +1,638 @@
+********************************************************************************
+*                     Thursday, July 12, 2018 11:29:56 AM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 4.0.4.230
+Unity version: 2018.1.7f1
+Platform: Windows
+Target assembly: Unity.PackageManagerUI.Editor.dll
+Project directory: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject
+Target profile directory: C:\Program Files\Unity\Hub\Editor\2018.1.7f1\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api
+Unity Mono executable: C:\Program Files\Unity\Hub\Editor\2018.1.7f1\Editor\Data\MonoBleedingEdge\bin\mono.exe
+Compiler: Microsoft C# 7.3 (2.8.0.62830)
+
+- Compilation ------------------------------------------------
+
+Process: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject\CSharp70Support\Roslyn\csc.exe
+Arguments: -noconfig @Temp/UnityTempFile-fbbbd566feb23ff45be7e18f94b4b78b
+Exit code: 0
+Elapsed time: 3.34 sec
+
+- Output (0 lines):
+
+- Errors (0 lines):
+
+- PDB to MDB conversion --------------------------------------
+
+Process: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject\CSharp70Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Unity.PackageManagerUI.Editor.dll
+Exit code: 0
+Elapsed time: 0.16 sec
+
+- Output (0 lines):
+
+- Errors (0 lines):
+
+********************************************************************************
+*                     Thursday, July 12, 2018 11:29:56 AM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 4.0.4.230
+Unity version: 2018.1.7f1
+Platform: Windows
+Target assembly: UnityEditor.StandardEvents.dll
+Project directory: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject
+Target profile directory: C:\Program Files\Unity\Hub\Editor\2018.1.7f1\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api
+Unity Mono executable: C:\Program Files\Unity\Hub\Editor\2018.1.7f1\Editor\Data\MonoBleedingEdge\bin\mono.exe
+Compiler: Microsoft C# 7.3 (2.8.0.62830)
+
+- Compilation ------------------------------------------------
+
+Process: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject\CSharp70Support\Roslyn\csc.exe
+Arguments: -noconfig @Temp/UnityTempFile-10558af48fa452047b3d4ac32313f222
+Exit code: 0
+Elapsed time: 3.59 sec
+
+- Output (0 lines):
+
+- Errors (0 lines):
+
+- PDB to MDB conversion --------------------------------------
+
+Process: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject\CSharp70Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\UnityEditor.StandardEvents.dll
+Exit code: 0
+Elapsed time: 0.14 sec
+
+- Output (0 lines):
+
+- Errors (0 lines):
+
+********************************************************************************
+*                     Thursday, July 12, 2018 11:30:01 AM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 4.0.4.230
+Unity version: 2018.1.7f1
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject
+Target profile directory: C:\Program Files\Unity\Hub\Editor\2018.1.7f1\Editor\Data\MonoBleedingEdge\lib\mono\unity
+Unity Mono executable: C:\Program Files\Unity\Hub\Editor\2018.1.7f1\Editor\Data\MonoBleedingEdge\bin\mono.exe
+Compiler: Microsoft C# 7.3 (2.8.0.62830)
+
+- Compilation ------------------------------------------------
+
+Process: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject\CSharp70Support\Roslyn\csc.exe
+Arguments: -noconfig @Temp/UnityTempFile-79be8d697be7fd242aacc3194407992a
+Exit code: 1
+Elapsed time: 1.84 sec
+
+- Output (9 lines):
+0: Assets\CSharp vNext Support\AsyncTools\UnityTaskScheduler.cs(5,24): error CS0234: The type or namespace name 'Tasks' does not exist in the namespace 'System.Threading' (are you missing an assembly reference?)
+1: Assets\CSharp vNext Support\AsyncTools\UnityTaskScheduler.cs(7,35): error CS0246: The type or namespace name 'TaskScheduler' could not be found (are you missing a using directive or an assembly reference?)
+2: Assets\CSharp vNext Support\AsyncTools\UnityTaskScheduler.cs(14,33): error CS0246: The type or namespace name 'Task' could not be found (are you missing a using directive or an assembly reference?)
+3: Assets\CSharp vNext Support\AsyncTools\UnityTaskScheduler.cs(22,36): error CS0246: The type or namespace name 'Task' could not be found (are you missing a using directive or an assembly reference?)
+4: Assets\CSharp vNext Support\AsyncTools\UnityTaskScheduler.cs(30,47): error CS0246: The type or namespace name 'Task' could not be found (are you missing a using directive or an assembly reference?)
+5: Assets\CSharp vNext Support\AsyncTools\UnityTaskScheduler.cs(14,39): error CS0115: 'UnityTaskScheduler.GetScheduledTasks()': no suitable method found to override
+6: Assets\CSharp vNext Support\AsyncTools\UnityTaskScheduler.cs(22,26): error CS0115: 'UnityTaskScheduler.QueueTask(Task)': no suitable method found to override
+7: Assets\CSharp vNext Support\AsyncTools\UnityTaskScheduler.cs(30,26): error CS0115: 'UnityTaskScheduler.TryExecuteTaskInline(Task, bool)': no suitable method found to override
+8: Assets\CSharp vNext Support\AsyncTools\UnityTaskScheduler.cs(10,30): error CS0246: The type or namespace name 'Task' could not be found (are you missing a using directive or an assembly reference?)
+
+- Errors (0 lines):
+
+********************************************************************************
+*                     Thursday, July 12, 2018 11:30:10 AM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 4.0.4.230
+Unity version: 2018.1.7f1
+Platform: Windows
+Target assembly: Unity.PackageManagerUI.Editor.dll
+Project directory: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject
+Target profile directory: C:\Program Files\Unity\Hub\Editor\2018.1.7f1\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api
+Unity Mono executable: C:\Program Files\Unity\Hub\Editor\2018.1.7f1\Editor\Data\MonoBleedingEdge\bin\mono.exe
+Compiler: Microsoft C# 7.3 (2.8.0.62830)
+
+- Compilation ------------------------------------------------
+
+Process: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject\CSharp70Support\Roslyn\csc.exe
+Arguments: -noconfig @Temp/UnityTempFile-d799202795ef77b47ac9701cca860bac
+Exit code: 0
+Elapsed time: 3.69 sec
+
+- Output (0 lines):
+
+- Errors (0 lines):
+
+- PDB to MDB conversion --------------------------------------
+
+Process: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject\CSharp70Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Unity.PackageManagerUI.Editor.dll
+Exit code: 0
+Elapsed time: 0.38 sec
+
+- Output (0 lines):
+
+- Errors (0 lines):
+
+********************************************************************************
+*                     Thursday, July 12, 2018 11:30:10 AM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 4.0.4.230
+Unity version: 2018.1.7f1
+Platform: Windows
+Target assembly: UnityEditor.StandardEvents.dll
+Project directory: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject
+Target profile directory: C:\Program Files\Unity\Hub\Editor\2018.1.7f1\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api
+Unity Mono executable: C:\Program Files\Unity\Hub\Editor\2018.1.7f1\Editor\Data\MonoBleedingEdge\bin\mono.exe
+Compiler: Microsoft C# 7.3 (2.8.0.62830)
+
+- Compilation ------------------------------------------------
+
+Process: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject\CSharp70Support\Roslyn\csc.exe
+Arguments: -noconfig @Temp/UnityTempFile-697cb3f37f574f44f8a06521254099ac
+Exit code: 0
+Elapsed time: 3.81 sec
+
+- Output (0 lines):
+
+- Errors (0 lines):
+
+- PDB to MDB conversion --------------------------------------
+
+Process: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject\CSharp70Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\UnityEditor.StandardEvents.dll
+Exit code: 0
+Elapsed time: 0.14 sec
+
+- Output (0 lines):
+
+- Errors (0 lines):
+
+********************************************************************************
+*                     Thursday, July 12, 2018 11:30:14 AM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 4.0.4.230
+Unity version: 2018.1.7f1
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject
+Target profile directory: C:\Program Files\Unity\Hub\Editor\2018.1.7f1\Editor\Data\MonoBleedingEdge\lib\mono\unity
+Unity Mono executable: C:\Program Files\Unity\Hub\Editor\2018.1.7f1\Editor\Data\MonoBleedingEdge\bin\mono.exe
+Compiler: Microsoft C# 7.3 (2.8.0.62830)
+
+- Compilation ------------------------------------------------
+
+Process: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject\CSharp70Support\Roslyn\csc.exe
+Arguments: -noconfig @Temp/UnityTempFile-713303c6233bbf64cbc341fd6276cfcd
+Exit code: 1
+Elapsed time: 1.91 sec
+
+- Output (9 lines):
+0: Assets\CSharp vNext Support\AsyncTools\UnityTaskScheduler.cs(5,24): error CS0234: The type or namespace name 'Tasks' does not exist in the namespace 'System.Threading' (are you missing an assembly reference?)
+1: Assets\CSharp vNext Support\AsyncTools\UnityTaskScheduler.cs(7,35): error CS0246: The type or namespace name 'TaskScheduler' could not be found (are you missing a using directive or an assembly reference?)
+2: Assets\CSharp vNext Support\AsyncTools\UnityTaskScheduler.cs(14,33): error CS0246: The type or namespace name 'Task' could not be found (are you missing a using directive or an assembly reference?)
+3: Assets\CSharp vNext Support\AsyncTools\UnityTaskScheduler.cs(22,36): error CS0246: The type or namespace name 'Task' could not be found (are you missing a using directive or an assembly reference?)
+4: Assets\CSharp vNext Support\AsyncTools\UnityTaskScheduler.cs(30,47): error CS0246: The type or namespace name 'Task' could not be found (are you missing a using directive or an assembly reference?)
+5: Assets\CSharp vNext Support\AsyncTools\UnityTaskScheduler.cs(14,39): error CS0115: 'UnityTaskScheduler.GetScheduledTasks()': no suitable method found to override
+6: Assets\CSharp vNext Support\AsyncTools\UnityTaskScheduler.cs(22,26): error CS0115: 'UnityTaskScheduler.QueueTask(Task)': no suitable method found to override
+7: Assets\CSharp vNext Support\AsyncTools\UnityTaskScheduler.cs(30,26): error CS0115: 'UnityTaskScheduler.TryExecuteTaskInline(Task, bool)': no suitable method found to override
+8: Assets\CSharp vNext Support\AsyncTools\UnityTaskScheduler.cs(10,30): error CS0246: The type or namespace name 'Task' could not be found (are you missing a using directive or an assembly reference?)
+
+- Errors (0 lines):
+
+********************************************************************************
+*                     Thursday, July 12, 2018 11:34:01 AM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 4.0.4.230
+Unity version: 2018.1.7f1
+Platform: Windows
+Target assembly: Unity.PackageManagerUI.Editor.dll
+Project directory: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject
+Target profile directory: C:\Program Files\Unity\Hub\Editor\2018.1.7f1\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api
+Unity Mono executable: C:\Program Files\Unity\Hub\Editor\2018.1.7f1\Editor\Data\MonoBleedingEdge\bin\mono.exe
+Compiler: Microsoft C# 7.3 (2.8.0.62830)
+
+- Compilation ------------------------------------------------
+
+Process: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject\CSharp70Support\Roslyn\csc.exe
+Arguments: -noconfig @Temp/UnityTempFile-2c9c031acffa5fd4c99523bda1e88fe7
+Exit code: 0
+Elapsed time: 3.53 sec
+
+- Output (0 lines):
+
+- Errors (0 lines):
+
+- PDB to MDB conversion --------------------------------------
+
+Process: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject\CSharp70Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Unity.PackageManagerUI.Editor.dll
+Exit code: 0
+Elapsed time: 0.18 sec
+
+- Output (0 lines):
+
+- Errors (0 lines):
+
+********************************************************************************
+*                     Thursday, July 12, 2018 11:34:02 AM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 4.0.4.230
+Unity version: 2018.1.7f1
+Platform: Windows
+Target assembly: UnityEditor.StandardEvents.dll
+Project directory: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject
+Target profile directory: C:\Program Files\Unity\Hub\Editor\2018.1.7f1\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api
+Unity Mono executable: C:\Program Files\Unity\Hub\Editor\2018.1.7f1\Editor\Data\MonoBleedingEdge\bin\mono.exe
+Compiler: Microsoft C# 7.3 (2.8.0.62830)
+
+- Compilation ------------------------------------------------
+
+Process: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject\CSharp70Support\Roslyn\csc.exe
+Arguments: -noconfig @Temp/UnityTempFile-c49d41522f2aade41a037c5847ec28e0
+Exit code: 0
+Elapsed time: 3.87 sec
+
+- Output (0 lines):
+
+- Errors (0 lines):
+
+- PDB to MDB conversion --------------------------------------
+
+Process: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject\CSharp70Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\UnityEditor.StandardEvents.dll
+Exit code: 0
+Elapsed time: 0.13 sec
+
+- Output (0 lines):
+
+- Errors (0 lines):
+
+********************************************************************************
+*                     Thursday, July 12, 2018 11:34:17 AM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 4.0.4.230
+Unity version: 2018.1.7f1
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject
+Target profile directory: C:\Program Files\Unity\Hub\Editor\2018.1.7f1\Editor\Data\MonoBleedingEdge\lib\mono\unity
+Unity Mono executable: C:\Program Files\Unity\Hub\Editor\2018.1.7f1\Editor\Data\MonoBleedingEdge\bin\mono.exe
+Compiler: Microsoft C# 7.3 (2.8.0.62830)
+
+- Compilation ------------------------------------------------
+
+Process: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject\CSharp70Support\Roslyn\csc.exe
+Arguments: -noconfig @Temp/UnityTempFile-738b58a1adbe1d84cbbcfba325ab8eb5
+Exit code: 1
+Elapsed time: 1.82 sec
+
+- Output (9 lines):
+0: Assets\CSharp vNext Support\AsyncTools\UnityTaskScheduler.cs(5,24): error CS0234: The type or namespace name 'Tasks' does not exist in the namespace 'System.Threading' (are you missing an assembly reference?)
+1: Assets\CSharp vNext Support\AsyncTools\UnityTaskScheduler.cs(7,35): error CS0246: The type or namespace name 'TaskScheduler' could not be found (are you missing a using directive or an assembly reference?)
+2: Assets\CSharp vNext Support\AsyncTools\UnityTaskScheduler.cs(14,33): error CS0246: The type or namespace name 'Task' could not be found (are you missing a using directive or an assembly reference?)
+3: Assets\CSharp vNext Support\AsyncTools\UnityTaskScheduler.cs(22,36): error CS0246: The type or namespace name 'Task' could not be found (are you missing a using directive or an assembly reference?)
+4: Assets\CSharp vNext Support\AsyncTools\UnityTaskScheduler.cs(30,47): error CS0246: The type or namespace name 'Task' could not be found (are you missing a using directive or an assembly reference?)
+5: Assets\CSharp vNext Support\AsyncTools\UnityTaskScheduler.cs(14,39): error CS0115: 'UnityTaskScheduler.GetScheduledTasks()': no suitable method found to override
+6: Assets\CSharp vNext Support\AsyncTools\UnityTaskScheduler.cs(22,26): error CS0115: 'UnityTaskScheduler.QueueTask(Task)': no suitable method found to override
+7: Assets\CSharp vNext Support\AsyncTools\UnityTaskScheduler.cs(30,26): error CS0115: 'UnityTaskScheduler.TryExecuteTaskInline(Task, bool)': no suitable method found to override
+8: Assets\CSharp vNext Support\AsyncTools\UnityTaskScheduler.cs(10,30): error CS0246: The type or namespace name 'Task' could not be found (are you missing a using directive or an assembly reference?)
+
+- Errors (0 lines):
+
+********************************************************************************
+*                     Thursday, July 12, 2018 11:34:37 AM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 4.0.4.230
+Unity version: 2018.1.7f1
+Platform: Windows
+Target assembly: Unity.PackageManagerUI.Editor.dll
+Project directory: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject
+Target profile directory: C:\Program Files\Unity\Hub\Editor\2018.1.7f1\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api
+Unity Mono executable: C:\Program Files\Unity\Hub\Editor\2018.1.7f1\Editor\Data\MonoBleedingEdge\bin\mono.exe
+Compiler: Microsoft C# 7.3 (2.8.0.62830)
+
+- Compilation ------------------------------------------------
+
+Process: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject\CSharp70Support\Roslyn\csc.exe
+Arguments: -noconfig @Temp/UnityTempFile-c8bc8698aee858f4f9aab4e2e135a20e
+Exit code: 0
+Elapsed time: 3.38 sec
+
+- Output (0 lines):
+
+- Errors (0 lines):
+
+- PDB to MDB conversion --------------------------------------
+
+Process: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject\CSharp70Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Unity.PackageManagerUI.Editor.dll
+Exit code: 0
+Elapsed time: 0.15 sec
+
+- Output (0 lines):
+
+- Errors (0 lines):
+
+********************************************************************************
+*                     Thursday, July 12, 2018 11:34:37 AM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 4.0.4.230
+Unity version: 2018.1.7f1
+Platform: Windows
+Target assembly: UnityEditor.StandardEvents.dll
+Project directory: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject
+Target profile directory: C:\Program Files\Unity\Hub\Editor\2018.1.7f1\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api
+Unity Mono executable: C:\Program Files\Unity\Hub\Editor\2018.1.7f1\Editor\Data\MonoBleedingEdge\bin\mono.exe
+Compiler: Microsoft C# 7.3 (2.8.0.62830)
+
+- Compilation ------------------------------------------------
+
+Process: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject\CSharp70Support\Roslyn\csc.exe
+Arguments: -noconfig @Temp/UnityTempFile-d6c1bc759bac1e44eae7d29a81a9e4db
+Exit code: 0
+Elapsed time: 3.49 sec
+
+- Output (0 lines):
+
+- Errors (0 lines):
+
+- PDB to MDB conversion --------------------------------------
+
+Process: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject\CSharp70Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\UnityEditor.StandardEvents.dll
+Exit code: 0
+Elapsed time: 0.13 sec
+
+- Output (0 lines):
+
+- Errors (0 lines):
+
+********************************************************************************
+*                     Thursday, July 12, 2018 11:34:42 AM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 4.0.4.230
+Unity version: 2018.1.7f1
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject
+Target profile directory: C:\Program Files\Unity\Hub\Editor\2018.1.7f1\Editor\Data\MonoBleedingEdge\lib\mono\unity
+Unity Mono executable: C:\Program Files\Unity\Hub\Editor\2018.1.7f1\Editor\Data\MonoBleedingEdge\bin\mono.exe
+Compiler: Microsoft C# 7.3 (2.8.0.62830)
+
+- Compilation ------------------------------------------------
+
+Process: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject\CSharp70Support\Roslyn\csc.exe
+Arguments: -noconfig @Temp/UnityTempFile-2d0b69c1a98e3a24f97ed53e5b5590a1
+Exit code: 1
+Elapsed time: 1.84 sec
+
+- Output (9 lines):
+0: Assets\CSharp vNext Support\AsyncTools\UnityTaskScheduler.cs(5,24): error CS0234: The type or namespace name 'Tasks' does not exist in the namespace 'System.Threading' (are you missing an assembly reference?)
+1: Assets\CSharp vNext Support\AsyncTools\UnityTaskScheduler.cs(7,35): error CS0246: The type or namespace name 'TaskScheduler' could not be found (are you missing a using directive or an assembly reference?)
+2: Assets\CSharp vNext Support\AsyncTools\UnityTaskScheduler.cs(14,33): error CS0246: The type or namespace name 'Task' could not be found (are you missing a using directive or an assembly reference?)
+3: Assets\CSharp vNext Support\AsyncTools\UnityTaskScheduler.cs(22,36): error CS0246: The type or namespace name 'Task' could not be found (are you missing a using directive or an assembly reference?)
+4: Assets\CSharp vNext Support\AsyncTools\UnityTaskScheduler.cs(30,47): error CS0246: The type or namespace name 'Task' could not be found (are you missing a using directive or an assembly reference?)
+5: Assets\CSharp vNext Support\AsyncTools\UnityTaskScheduler.cs(14,39): error CS0115: 'UnityTaskScheduler.GetScheduledTasks()': no suitable method found to override
+6: Assets\CSharp vNext Support\AsyncTools\UnityTaskScheduler.cs(22,26): error CS0115: 'UnityTaskScheduler.QueueTask(Task)': no suitable method found to override
+7: Assets\CSharp vNext Support\AsyncTools\UnityTaskScheduler.cs(30,26): error CS0115: 'UnityTaskScheduler.TryExecuteTaskInline(Task, bool)': no suitable method found to override
+8: Assets\CSharp vNext Support\AsyncTools\UnityTaskScheduler.cs(10,30): error CS0246: The type or namespace name 'Task' could not be found (are you missing a using directive or an assembly reference?)
+
+- Errors (0 lines):
+
+********************************************************************************
+*                     Thursday, July 12, 2018 11:34:46 AM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 4.0.4.230
+Unity version: 2018.1.7f1
+Platform: Windows
+Target assembly: Unity.PackageManagerUI.Editor.dll
+Project directory: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject
+Target profile directory: C:\Program Files\Unity\Hub\Editor\2018.1.7f1\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api
+Unity Mono executable: C:\Program Files\Unity\Hub\Editor\2018.1.7f1\Editor\Data\MonoBleedingEdge\bin\mono.exe
+Compiler: Microsoft C# 7.3 (2.8.0.62830)
+
+- Compilation ------------------------------------------------
+
+Process: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject\CSharp70Support\Roslyn\csc.exe
+Arguments: -noconfig @Temp/UnityTempFile-ab27f1bb92facb948870569f193c6111
+Exit code: 0
+Elapsed time: 3.70 sec
+
+- Output (0 lines):
+
+- Errors (0 lines):
+
+- PDB to MDB conversion --------------------------------------
+
+Process: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject\CSharp70Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Unity.PackageManagerUI.Editor.dll
+Exit code: 0
+Elapsed time: 0.17 sec
+
+- Output (0 lines):
+
+- Errors (0 lines):
+
+********************************************************************************
+*                     Thursday, July 12, 2018 11:34:46 AM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 4.0.4.230
+Unity version: 2018.1.7f1
+Platform: Windows
+Target assembly: UnityEditor.StandardEvents.dll
+Project directory: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject
+Target profile directory: C:\Program Files\Unity\Hub\Editor\2018.1.7f1\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api
+Unity Mono executable: C:\Program Files\Unity\Hub\Editor\2018.1.7f1\Editor\Data\MonoBleedingEdge\bin\mono.exe
+Compiler: Microsoft C# 7.3 (2.8.0.62830)
+
+- Compilation ------------------------------------------------
+
+Process: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject\CSharp70Support\Roslyn\csc.exe
+Arguments: -noconfig @Temp/UnityTempFile-6ab2bdbbbefeb7747b2fdb1ccdab80ef
+Exit code: 0
+Elapsed time: 3.85 sec
+
+- Output (0 lines):
+
+- Errors (0 lines):
+
+- PDB to MDB conversion --------------------------------------
+
+Process: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject\CSharp70Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\UnityEditor.StandardEvents.dll
+Exit code: 0
+Elapsed time: 0.14 sec
+
+- Output (0 lines):
+
+- Errors (0 lines):
+
+********************************************************************************
+*                     Thursday, July 12, 2018 11:34:50 AM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 4.0.4.230
+Unity version: 2018.1.7f1
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject
+Target profile directory: C:\Program Files\Unity\Hub\Editor\2018.1.7f1\Editor\Data\MonoBleedingEdge\lib\mono\unity
+Unity Mono executable: C:\Program Files\Unity\Hub\Editor\2018.1.7f1\Editor\Data\MonoBleedingEdge\bin\mono.exe
+Compiler: Microsoft C# 7.3 (2.8.0.62830)
+
+- Compilation ------------------------------------------------
+
+Process: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject\CSharp70Support\Roslyn\csc.exe
+Arguments: -noconfig @Temp/UnityTempFile-d7737d7a161274a4996143cf6a8eb640
+Exit code: 1
+Elapsed time: 1.90 sec
+
+- Output (9 lines):
+0: Assets\CSharp vNext Support\AsyncTools\UnityTaskScheduler.cs(5,24): error CS0234: The type or namespace name 'Tasks' does not exist in the namespace 'System.Threading' (are you missing an assembly reference?)
+1: Assets\CSharp vNext Support\AsyncTools\UnityTaskScheduler.cs(7,35): error CS0246: The type or namespace name 'TaskScheduler' could not be found (are you missing a using directive or an assembly reference?)
+2: Assets\CSharp vNext Support\AsyncTools\UnityTaskScheduler.cs(14,33): error CS0246: The type or namespace name 'Task' could not be found (are you missing a using directive or an assembly reference?)
+3: Assets\CSharp vNext Support\AsyncTools\UnityTaskScheduler.cs(22,36): error CS0246: The type or namespace name 'Task' could not be found (are you missing a using directive or an assembly reference?)
+4: Assets\CSharp vNext Support\AsyncTools\UnityTaskScheduler.cs(30,47): error CS0246: The type or namespace name 'Task' could not be found (are you missing a using directive or an assembly reference?)
+5: Assets\CSharp vNext Support\AsyncTools\UnityTaskScheduler.cs(14,39): error CS0115: 'UnityTaskScheduler.GetScheduledTasks()': no suitable method found to override
+6: Assets\CSharp vNext Support\AsyncTools\UnityTaskScheduler.cs(22,26): error CS0115: 'UnityTaskScheduler.QueueTask(Task)': no suitable method found to override
+7: Assets\CSharp vNext Support\AsyncTools\UnityTaskScheduler.cs(30,26): error CS0115: 'UnityTaskScheduler.TryExecuteTaskInline(Task, bool)': no suitable method found to override
+8: Assets\CSharp vNext Support\AsyncTools\UnityTaskScheduler.cs(10,30): error CS0246: The type or namespace name 'Task' could not be found (are you missing a using directive or an assembly reference?)
+
+- Errors (0 lines):
+
+********************************************************************************
+*                     Thursday, July 12, 2018 11:36:37 AM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 4.0.4.230
+Unity version: 2018.1.7f1
+Platform: Windows
+Target assembly: Unity.PackageManagerUI.Editor.dll
+Project directory: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject
+Target profile directory: C:\Program Files\Unity\Hub\Editor\2018.1.7f1\Editor\Data\MonoBleedingEdge\lib\mono\unityjit
+Unity Mono executable: C:\Program Files\Unity\Hub\Editor\2018.1.7f1\Editor\Data\MonoBleedingEdge\bin\mono.exe
+Compiler: Microsoft C# 7.3 (2.8.0.62830)
+
+- Compilation ------------------------------------------------
+
+Process: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject\CSharp70Support\Roslyn\csc.exe
+Arguments: -noconfig @Temp/UnityTempFile-49b0a3bf092a1944aaaadd9cf90846a9
+Exit code: 0
+Elapsed time: 5.18 sec
+
+- Output (0 lines):
+
+- Errors (0 lines):
+
+********************************************************************************
+*                     Thursday, July 12, 2018 11:36:37 AM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 4.0.4.230
+Unity version: 2018.1.7f1
+Platform: Windows
+Target assembly: UnityEditor.StandardEvents.dll
+Project directory: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject
+Target profile directory: C:\Program Files\Unity\Hub\Editor\2018.1.7f1\Editor\Data\MonoBleedingEdge\lib\mono\unityjit
+Unity Mono executable: C:\Program Files\Unity\Hub\Editor\2018.1.7f1\Editor\Data\MonoBleedingEdge\bin\mono.exe
+Compiler: Microsoft C# 7.3 (2.8.0.62830)
+
+- Compilation ------------------------------------------------
+
+Process: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject\CSharp70Support\Roslyn\csc.exe
+Arguments: -noconfig @Temp/UnityTempFile-f17547508ab06ec4186d35307f1f1381
+Exit code: 0
+Elapsed time: 5.25 sec
+
+- Output (0 lines):
+
+- Errors (0 lines):
+
+********************************************************************************
+*                     Thursday, July 12, 2018 11:36:44 AM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 4.0.4.230
+Unity version: 2018.1.7f1
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject
+Target profile directory: C:\Program Files\Unity\Hub\Editor\2018.1.7f1\Editor\Data\MonoBleedingEdge\lib\mono\unityjit
+Unity Mono executable: C:\Program Files\Unity\Hub\Editor\2018.1.7f1\Editor\Data\MonoBleedingEdge\bin\mono.exe
+Compiler: Microsoft C# 7.3 (2.8.0.62830)
+
+- Compilation ------------------------------------------------
+
+Process: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject\CSharp70Support\Roslyn\csc.exe
+Arguments: -noconfig @Temp/UnityTempFile-d7090173533fb6944bfce8dd29d052b7
+Exit code: 0
+Elapsed time: 3.73 sec
+
+- Output (0 lines):
+
+- Errors (0 lines):
+
+********************************************************************************
+*                     Thursday, July 12, 2018 11:36:52 AM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 4.0.4.230
+Unity version: 2018.1.7f1
+Platform: Windows
+Target assembly: Unity.PackageManagerUI.Editor.dll
+Project directory: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject
+Target profile directory: C:\Program Files\Unity\Hub\Editor\2018.1.7f1\Editor\Data\MonoBleedingEdge\lib\mono\unityjit
+Unity Mono executable: C:\Program Files\Unity\Hub\Editor\2018.1.7f1\Editor\Data\MonoBleedingEdge\bin\mono.exe
+Compiler: Microsoft C# 7.3 (2.8.0.62830)
+
+- Compilation ------------------------------------------------
+
+Process: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject\CSharp70Support\Roslyn\csc.exe
+Arguments: -noconfig @Temp/UnityTempFile-c7ed06b75ad91eb4eba084101be5fbf6
+Exit code: 0
+Elapsed time: 4.21 sec
+
+- Output (0 lines):
+
+- Errors (0 lines):
+
+********************************************************************************
+*                     Thursday, July 12, 2018 11:36:52 AM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 4.0.4.230
+Unity version: 2018.1.7f1
+Platform: Windows
+Target assembly: UnityEditor.StandardEvents.dll
+Project directory: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject
+Target profile directory: C:\Program Files\Unity\Hub\Editor\2018.1.7f1\Editor\Data\MonoBleedingEdge\lib\mono\unityjit
+Unity Mono executable: C:\Program Files\Unity\Hub\Editor\2018.1.7f1\Editor\Data\MonoBleedingEdge\bin\mono.exe
+Compiler: Microsoft C# 7.3 (2.8.0.62830)
+
+- Compilation ------------------------------------------------
+
+Process: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject\CSharp70Support\Roslyn\csc.exe
+Arguments: -noconfig @Temp/UnityTempFile-6be6167599711c9408ad3c0fd8f699cd
+Exit code: 0
+Elapsed time: 4.53 sec
+
+- Output (0 lines):
+
+- Errors (0 lines):
+
+********************************************************************************
+*                     Thursday, July 12, 2018 11:36:57 AM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 4.0.4.230
+Unity version: 2018.1.7f1
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject
+Target profile directory: C:\Program Files\Unity\Hub\Editor\2018.1.7f1\Editor\Data\MonoBleedingEdge\lib\mono\unityjit
+Unity Mono executable: C:\Program Files\Unity\Hub\Editor\2018.1.7f1\Editor\Data\MonoBleedingEdge\bin\mono.exe
+Compiler: Microsoft C# 7.3 (2.8.0.62830)
+
+- Compilation ------------------------------------------------
+
+Process: D:\Dev\CloudBuildTestProject\TestRepo\CloudBuildTestProject\CSharp70Support\Roslyn\csc.exe
+Arguments: -noconfig @Temp/UnityTempFile-a5e11486b9ea0db439c2439fc6b48539
+Exit code: 0
+Elapsed time: 3.78 sec
+
+- Output (0 lines):
+
+- Errors (0 lines):
+
